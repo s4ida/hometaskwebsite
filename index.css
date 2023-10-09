@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: #eb5757;
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+.image{
+    background-color:  #eb5757;
+    display: flex;
+    left: 80px;
+    cursor: pointer;
+
+}
+.divnav{
+    height: 60px;
+    background-color:  #eb5757;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.img2{
+width: 50px;
+height: 30px;
+background-color: black;
+border-radius: 5px;
+position: relative;
+cursor: pointer;
+
+}
+.shopicon{
+    height: 100%;
+    width: 100%;
+}
+.zero{
+    background-color: white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+   
+}
+li:hover {
+    background-color: black;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;   
+
+}
+
+#sheet2{
+
+    width: 100%;
+    height: 100%;
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    background-size: cover;
+    
+}
+.h1n1{
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    font-size: 40px;
+    color: white;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+  display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.button1{
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+   border-color: white;
+   color: white;
+ font-weight: 700;
+ font-size: medium;
+ cursor: pointer;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+}
+.head{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+.headpart1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  
+}
+.headpart2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.body2{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.imgbox1{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgbox2{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.imgbox3{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+#sheet4{
+
+    width: 100%;
+    height: 600px;
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+}
+.body3{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    color: white;
+}
+.button2{
+    background-color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+   border: none;
+   color:black;
+ font-weight: 700;
+ font-size: medium;
+ cursor: pointer;
+}
+.button2:hover{
+    background-color: red;
+    color: white;
+}
+.sheet5header{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.body4{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgbox4{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    
+    flex-direction: column;
+    gap: 20px;
+   cursor: pointer; 
+}
+.buttonbox1{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.button3{
+    background-color: red;
+    color: black;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.button3:hover{
+background-color: black;
+color: white;
+}
+.imgbox5{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.buttonbox2{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.button4{
+    background-color: red;
+    color: black;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.button4:hover{
+background-color: black;
+color: white;
+}
+.imgbox6{
+    width: 30%;
+    height: 700px;
+    display: flex;
+    background-color: white;
+    
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+.buttonbox3{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.button5{
+    background-color: red;
+    color: black;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.button5:hover{
+background-color: black;
+color: white;
+}
+.buttondiv{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+   justify-content: center;
+    
+}
+.button6{
+width: 200px;
+height: 35px;
+border-radius: 10px;
+background-color: black;
+color: white;
+font-weight: 800;
+border: none;
+}
+.button6:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+#sheet6{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+}
+.blackdiv{
+    width: 80%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   padding-top: 20px;
+  margin-left: 180px;
+  position: relative;
+  border-radius: 10px;
+}
+.img3{
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: -150px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    background-color:black;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    color: white;
+}
+.icon{
+    height: 50px;
+    width: 150px;
+    background-color:black;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
